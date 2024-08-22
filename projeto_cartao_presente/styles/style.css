@@ -1,0 +1,54 @@
+.container__imagem__mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}    
+
+.apresentacao__conteudo__imagem {
+    text-align: center;
+}
+
+.apresentacao__conteudo__mensagem {
+    text-align: center;
+    font-family: var(--fonte-conteudo);
+    font-size: 1.25rem;
+}
+
+.mensagem__2 {
+    text-align: center;
+    font-family: var(--fonte-conteudo);
+    font-size: 1.25rem;
+    margin: 45px 150px;
+}
+
+img {
+    width: 50%;
+}
+
+@media (max-width: 1200px) {
+    .container__imagem__mensagem {
+        margin-top: 20px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .apresentacao__conteudo__mensagem {
+        font-size: 0.9rem;
+        margin: 0 10px;
+    }
+
+    .mensagem__2 {
+        margin: 50px;
+    }    
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .apresentacao__mensagem__2 {
+        margin-bottom: 15%;
+    }
+
+    .apresentacao__conteudo__mensagem {
+        font-size: 1.8rem;
+    }
+}
