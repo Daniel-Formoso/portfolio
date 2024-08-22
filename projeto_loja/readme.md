@@ -1,0 +1,1 @@
+Nesse projeto faço o uso de HTML e CSS para realizar a criação de uma página Web simples. Também adicionei nesse projeto a propriedade (@media) no CSS para deixar a página responsiva em alguns dispositivos.
